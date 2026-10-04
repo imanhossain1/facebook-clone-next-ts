@@ -1,19 +1,16 @@
-
 import "./globals.css";
-// import all 
+// import all
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  return (
-    <html
-      lang="en"
-    >
-    
-      <body className="min-h-full flex flex-col">
-          <Navbar/>
-        {children}</body>
-        <Footer/>
-    </html>
-  );
+export default function RootLayout({children}: LayoutProps<"/">) {
+    return (
+        <html lang="en">
+            <body className="min-h-full flex flex-col">
+                <Navbar />
+                {children}
+                <Footer />
+            </body>
+        </html>
+    );
 }
