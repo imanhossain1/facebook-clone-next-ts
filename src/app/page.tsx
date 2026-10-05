@@ -2,6 +2,7 @@ import CreatePost from '../components/CreatePost'
 import PostCard from '../components/PostCard'
 import LeftSidebar from '../components/LeftSidebar'
 import RightSidebar from '../components/RightSidebar'
+import posts from '../data/posts'
 
 function HomePage() {
   return (
@@ -13,16 +14,19 @@ function HomePage() {
       </aside>
 
       {/* Center Feed */}
-      <section className="col-span-2 space-y-6">
+      <section className="lg:col-span-2 space-y-6">
+
         <h1 className="text-2xl font-bold">
           Facebook Home
         </h1>
 
         <CreatePost />
 
-        <PostCard />
-        <PostCard />
-        <PostCard />
+        {/* Dummy Posts */}
+        {posts.map((post) => (
+          <PostCard key={post.id} post={post} />
+        ))}
+
       </section>
 
       {/* Right Sidebar */}
@@ -35,18 +39,3 @@ function HomePage() {
 }
 
 export default HomePage
-
-
-
-// ┌─────────────┬──────────────────────┬─────────────┐
-// │             │                      │             │
-// │    LEFT     │       CENTER         │    RIGHT    │
-// │             │                      │             │
-// │  Profile    │    CreatePost        │  Contacts   │
-// │  Home       │         ↓            │  🟢 Rahim   │
-// │  Friends    │    PostCard          │  🟢 Karim   │
-// │  Messages   │         ↓            │  🟢 Sakib   │
-// │  Saved      │    PostCard          │             │
-// │  Settings   │                      │             │
-// │             │                      │             │
-// └─────────────┴──────────────────────┴─────────────┘

@@ -1,193 +1,102 @@
+হ্যাঁ। 👍 `PROJECT_STEPS.md`-এর ভিতরে **একদম ধাপে ধাপে** রাখো। একবারে শুধু একটা step শেষ করবে।
 
-হ্যাঁ 👍 এখন পর্যন্ত তোমরা **অনেকগুলো important process** complete করেছো। `PROJECT_STEPS.md` রাখা খুব ভালো হবে—এটা তোমার project-এর **map** হিসেবে কাজ করবে।
-
-তোমার এখন পর্যন্ত কাজগুলো আমি সুন্দরভাবে সাজিয়ে দিচ্ছি:
-
-```md id="j8k3p2"
+```md
 # 📘 Facebook Clone — Project Steps
 
-## 🟢 Phase 1 — Project Setup
+## 🟢 Phase 1 — Setup
 
-### Step 01 — Project Installation ✅
-- Next.js project create
-- TypeScript setup
-- Tailwind CSS setup
-- DaisyUI setup
+- [x] Step 01 — Install Next.js
+- [x] Step 02 — Setup TypeScript
+- [x] Step 03 — Setup Tailwind CSS + DaisyUI
+- [x] Step 04 — Setup Folder Structure
 
-### Step 02 — Global CSS ✅
-- Global styles setup
-- Tailwind/DaisyUI classes ব্যবহার
+## 🟢 Phase 2 — Common UI
 
-### Step 03 — API / Route Structure ✅
-- API/Route structure বুঝা
-- App Router structure তৈরি
+- [x] Step 05 — Navbar
+- [x] Step 06 — Footer
 
----
+## 🟢 Phase 3 — Home
 
-## 🟢 Phase 2 — Common Layout
+- [x] Step 07 — Home Page
+- [x] Step 08 — Left Sidebar
+- [x] Step 09 — Center Feed
+- [x] Step 10 — CreatePost
+- [x] Step 11 — PostCard
+- [x] Step 12 — Right Sidebar
+- [ ] Step 13 — Dummy Posts
+- [ ] Step 14 — Not Found Page
 
-### Step 04 — Navbar ✅
-- Responsive Navbar
-- Navigation links
-- Mobile menu
+## 🟡 Phase 4 — Basic Pages
 
-### Step 05 — Footer ✅
-- Footer section
-- Useful links
-- Copyright
-
----
-
-## 🟢 Phase 3 — Home Page
-
-### Step 06 — Home Page Structure ✅
-Home page তিনটি main section:
-
-- Left Sidebar
-- Center Feed
-- Right Sidebar
-
-### Step 07 — Left Sidebar ✅
-- Profile
-- Home
-- Friends
-- Messages
-- Saved
-- Settings
-
-### Step 08 — Center Feed ✅
-Center Feed-এর ভিতরে:
-
-- CreatePost
-- PostCard
-- Multiple Posts
-
-### Step 09 — CreatePost ✅
-- Create post UI
-- Post input
-- Post action area
-
-### Step 10 — PostCard ✅
-- User information
-- Post text
-- Post image
-- Like
-- Comment
-- Share
-
-### Step 11 — Right Sidebar ✅
-- Contacts
-- Online users
-- User profile links
+- [ ] Step 15 — Profile
+- [ ] Step 16 — Friends
+- [ ] Step 17 — Messages
+- [ ] Step 18 — Login
+- [ ] Step 19 — Register
 
 ---
 
-## 🟡 Phase 4 — Error Pages
+# 🔐 Separate Practice — Authentication
 
-### Step 12 — Not Found Page ⏳
-- 404 page
-- Back to Home button
-- Mobile responsive
+> Facebook Clone-এর বাইরে আলাদা ছোট project.
 
----
-
-# 🔵 Phase 5 — Basic Pages
-
-### Step 13 — Profile Page
-- Profile information
-- Profile posts
-- Edit profile UI
-
-### Step 14 — Friends Page
-- Friend list
-- Friend cards
-- Friend request UI
-
-### Step 15 — Messages Page
-- Conversation list
-- Chat UI
-
-### Step 16 — Login Page
-- Email
-- Password
-- Login button
-
-### Step 17 — Register Page
-- Name
-- Email
-- Password
-- Register button
+- [ ] Step 01 — Create Auth Project
+- [ ] Step 02 — Register UI
+- [ ] Step 03 — Login UI
+- [ ] Step 04 — MongoDB Connection
+- [ ] Step 05 — User Model
+- [ ] Step 06 — Register API
+- [ ] Step 07 — Login API
+- [ ] Step 08 — Session
+- [ ] Step 09 — Logout
+- [ ] Step 10 — Protect Private Page
 
 ---
 
-# 🟠 Phase 6 — Backend
+# 🔵 Facebook Clone — Version 2
 
-### Step 18 — MongoDB Connection
-### Step 19 — Mongoose Setup
-### Step 20 — User Model
-### Step 21 — Post Model
-### Step 22 — Authentication
-### Step 23 — Register API
-### Step 24 — Login API
-### Step 25 — Post CRUD
-### Step 26 — Like System
-### Step 27 — Comment System
-### Step 28 — Friend Request System
+> Authentication practice শেষ হওয়ার পরে এখানে ফিরব।
 
----
-
-# 🔴 Phase 7 — Advanced Features
-
-### Step 29 — Real-time Chat
-### Step 30 — Online / Offline Status
-### Step 31 — Image Upload
-### Step 32 — Notifications
-### Step 33 — Search
-### Step 34 — Profile Edit
-### Step 35 — Dark Mode
-### Step 36 — Mobile Optimization
+- [ ] Step 20 — MongoDB Connection
+- [ ] Step 21 — Mongoose
+- [ ] Step 22 — Real Authentication
+- [ ] Step 23 — Real Users
+- [ ] Step 24 — Real Posts
+- [ ] Step 25 — Create Post
+- [ ] Step 26 — Edit Post
+- [ ] Step 27 — Delete Post
+- [ ] Step 28 — Like
+- [ ] Step 29 — Comment
+- [ ] Step 30 — Friend Request
 
 ---
 
-# 🎯 Development Rule
+# 🔴 Later — Advanced
 
-Follow this sequence:
+- [ ] Realtime Chat
+- [ ] Notifications
+- [ ] Search
+- [ ] Image Upload
+- [ ] Online Status
+- [ ] Typing Indicator
+- [ ] Dark Mode
+- [ ] Mobile Optimization
 
-Learn
-  ↓
-Build
-  ↓
-Test
-  ↓
-Fix
-  ↓
-Next Step
+---
 
-Don't build everything at once.
+# 🎯 Rule
 
-First complete the UI.
-Then connect the backend.
-Then add real data.
-Then add advanced features.
+One Step at a Time
+
+Code → Test → Fix → Next Step
 ```
 
-### এখন তোমার progress
+### 📍 এখন শুধু এইটা:
 
-**11টা step complete/চলমান হয়েছে:**
+**Facebook Clone → Step 13: Dummy Posts**
 
-```text
-01 Project Install       ✅
-02 CSS Setup             ✅
-03 API/Route Structure   ✅
-04 Navbar                ✅
-05 Footer                ✅
-06 Home                  ✅
-07 Left Sidebar          ✅
-08 Center Feed           ✅
-09 CreatePost            ✅
-10 PostCard              ✅
-11 Right Sidebar         ✅
-12 Not Found             ⏳ ← এখন
-```
+তারপর **Step 14: Not Found**।
 
-এভাবে রাখলে পরে project খুলেই **“আমি কোথায় আছি → এরপর কী করব”** এক নজরে বুঝতে পারবে।
+তারপর Basic Pages শেষ করে **Authentication Practice** শুরু করবে।
+
+**এক ধাপ শেষ না করে পরের ধাপে যাব না।**
