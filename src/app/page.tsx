@@ -6,7 +6,7 @@ import posts from '../data/posts'
 
 function HomePage() {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-4 gap-6 p-4">
+    <section className="grid grid-cols-1 lg:grid-cols-4 gap-6 p-4">
 
       {/* Left Sidebar */}
       <aside>
@@ -34,7 +34,7 @@ function HomePage() {
         <RightSidebar />
       </aside>
 
-    </main>
+    </section>
   )
 }
 

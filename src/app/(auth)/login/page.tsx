@@ -35,6 +35,7 @@ function LoginPage() {
     const { data, error } = await signIn.email({
       email: String(email),
       password: String(password),
+      callbackURL:"/"
     });
 
     // Login error
@@ -55,8 +56,6 @@ function LoginPage() {
     // Loading শেষ
     setIsLoading(false);
 
-    // Home page
-    router.push("/");
   };
 
 
