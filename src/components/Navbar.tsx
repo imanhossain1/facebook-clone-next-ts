@@ -223,9 +223,10 @@ function Navbar() {
 
               {/* User Name */}
 
-              {/* <span className="hidden md:block font-semibold">
+              <span className="hidden md:block font-semibold lg:hidden">
+              
                 {user.name}
-              </span> */}
+              </span>
 
             </div>
 
